@@ -1,0 +1,31 @@
+.busca {
+    font-family: "Bebas Neue", cursive;
+  }
+  .buscador {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+  }
+  
+  #in {
+    border-radius: 13px 0 0 13px;
+    border: 1px solid whitesmoke;
+  }
+  
+  #bt {
+    cursor: pointer;
+    border-radius: 0 13px 13px 0;
+    margin-right: 16px;
+    width: 90px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+  }
+  
+  #bt:hover {
+    background-color: rgb(53, 27, 78);
+    color: whitesmoke;
+  }

@@ -1,0 +1,72 @@
+.loaderDetail {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 760px;
+    height: 420px;
+    margin-top: 160px;
+    margin-bottom: 300px;
+  }
+  
+  #description {
+    background-color: rgba(4, 1, 17, 0.699);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+  }
+  /* ------------------------------------------------------ */
+  .contenedorDetail {
+    height: 1000px;
+    width: 800px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+    background-image: url("https://i.imgur.com/MoytrPk.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font: 0.9rem futura-book;
+    box-shadow: 1px -1px 13px 4px rgba(0, 0, 0, 0.93);
+    margin-bottom: 3%;
+    padding-bottom: 15px;
+  }
+  .contenedorDetail h1 {
+    font: 1.4rem futura-book;
+    font-size: 30px;
+    color: #00ffff;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 20px 20px 0 0;
+    padding-top: 8px;
+  }
+  
+  .imagenDetalle {
+    display: flex;
+    justify-content: center;
+  }
+  .imgDetalle {
+    border-radius: 15px;
+  }
+  
+  .subtitle {
+    margin-top: 15px;
+    color: #ff18f3;
+    font: 1.1rem futura-book;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .text {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font: 0.9rem futura-book;
+    margin: 0.8%;
+  }
+  
+  .btnD {
+    margin-top: 20px;
+  }

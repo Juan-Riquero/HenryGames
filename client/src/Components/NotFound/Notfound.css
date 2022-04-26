@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.NotFound {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../NotFound/notfoundpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.NotFound h1, .NotFound h2 {
+  font-size: 60px;
+  color: #e6e6fb;
+  text-shadow: 0 0 100px #fff, 0 0 42px #2600ff, 0 0 82px #2600ff, 0 0 92px #2600ff, 0 0 102px #2600ff;
+  margin-bottom: 50px;
+}
+
+.NotFound a {
+  color: #e6e6fb;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.NotFound a .arrow {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #c300ff;
+  margin-right: 10px;
+}
+
+.NotFound a p {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 20px;
+}
+
+.NotFound a:hover {
+  color: #c300ff;
+}
+
+.NotFound a:hover .arrow {
+  opacity: 1;
+}
+
+.NotFound a:hover p {
+  text-decoration: underline;
+}

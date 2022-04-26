@@ -1,0 +1,41 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    margin-top: 20px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://i.imgur.com/dSIu2Tb.jpg");
+    background-size: cover;
+    border: 2px solid rgb(146, 13, 255);
+  }
+  .card h3 {
+    font-size: 22px;
+    color: white;
+  }
+  .imageCard {
+    border-radius: 10px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(94, 10, 173, 0.2);
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.5s;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    display: flex;
+    padding: 7px ;
+    border-radius: 10px 10px 0 0;
+    justify-content: space-between;
+  }
+  
+  .container span {
+    margin-inline: 10px;
+    padding-inline: 15px;
+  }
